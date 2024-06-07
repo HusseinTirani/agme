@@ -1,0 +1,163 @@
+.navbar {
+
+    margin-left: 15%;
+}
+
+.navbar-nav {
+
+    margin-left: 20%;
+}
+
+
+.nav-logo {
+
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    z-index: 10000;
+    background-color: #FCFFE0;
+
+
+
+}
+
+.navbar-collapse{
+
+    padding-top: 2%;
+}
+
+
+
+
+
+
+
+.nav-item a {
+
+
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #73777B;
+    transition: 0.6s;
+    font-size: 14px;
+}
+
+.nav-item a:hover {
+
+    color: #000000;
+
+}
+
+@media (max-width: 1028px) {
+
+    .navbar {
+
+        margin-left: 1%;
+    }
+
+
+
+    .navbar-nav {
+
+        padding-top: 8%;
+        margin-left: 0%;
+
+    }
+
+    .navbar-nav li {
+
+        padding-top: 5%;
+        text-align: center;
+
+    }
+
+
+
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+
+#section {
+  position: relative;
+  width: 100%;
+  /* 16:9 aspect ratio image bg */
+  height: calc(1200px * 0.5625);
+  background-image: url('images/Education-City-Gulf/Education-City-3rd-6th-5099-web.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  background-position: center;
+  background-size: cover;
+  transition: all 1s linear;
+}
+
+.content-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  border: 1px solid rgb(242, 227, 12);
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 3px;
+  color: white;
+  font-family: monospace;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  line-height: 1.4;
+}
+
+.content h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+#one {
+  background-image: url('images/Doha-new-port/KZY06540-scaled.jpg');
+}
+
+#two {
+  background-image: url('images/Msheireb Down Town/KZY07474-scaled.jpg');
+}
+
+#three {
+  background-image: url('images/Museum/KZY05812-2-scaled.jpg');
+}
+
+#four {
+  background-image: url('images/The Pearl/KZY05387.png');
+}
+
+#five {
+  background-image: url('images/Doha Golf/KZY06090-scaled.jpg');
+}
+
+.visible { 
+  opacity: 1;
+}
