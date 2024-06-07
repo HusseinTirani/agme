@@ -1,3 +1,13 @@
+.home{
+
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Open Sans", sans-serif;
+   
+    
+}
+
 .navbar {
 
     margin-left: 15%;
@@ -93,10 +103,11 @@
   position: relative;
   width: 100%;
   /* 16:9 aspect ratio image bg */
-  height: calc(1200px * 0.5625);
+  height: calc(1450px * 0.5625);
   background-image: url('images/Education-City-Gulf/Education-City-3rd-6th-5099-web.jpg');
   background-position: center;
   background-size: cover;
+  
 }
 
 .bg {
